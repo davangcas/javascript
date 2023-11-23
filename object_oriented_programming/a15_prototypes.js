@@ -37,7 +37,6 @@ console.log(person1.__proto__.__proto__ === Object.prototype); // true
 // And the prototype of the default Object object is null
 console.log(person1.__proto__.__proto__.__proto__); // null
 
-
 // Prototypes with simple objects
 const simpleObj = {};
 console.log(simpleObj.__proto__ === Object.prototype); // true
