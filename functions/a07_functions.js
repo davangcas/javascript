@@ -1,3 +1,5 @@
+// functions documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
+
 // declarated function
 function sayHello() {
     console.log("Hello");

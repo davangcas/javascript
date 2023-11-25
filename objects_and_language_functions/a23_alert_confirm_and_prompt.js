@@ -1,3 +1,7 @@
+// alert object documentation - https://developer.mozilla.org/en-US/docs/Web/API/Window/alert
+// confirm object documentation - https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm
+// prompt object documentation - https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt
+
 // Display an alert dialog box
 alert("This is an alert!");
 

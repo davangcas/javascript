@@ -1,3 +1,5 @@
+// classes doc: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+
 // Base class
 class Animal {
     constructor(name) {

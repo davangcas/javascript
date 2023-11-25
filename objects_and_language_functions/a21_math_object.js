@@ -1,3 +1,5 @@
+// math object documentation - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
+
 // Example 1: Math Constants
 console.log("Math.PI:", Math.PI); // Prints the value of PI (3.141592653589793)
 console.log("Math.E:", Math.E); // Prints the value of Euler's number (2.718281828459045)

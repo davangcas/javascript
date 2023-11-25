@@ -1,3 +1,6 @@
+// weaksets documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet
+// weakmaps documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap
+
 /**
  * Represents a weak set in JavaScript.
  * @class

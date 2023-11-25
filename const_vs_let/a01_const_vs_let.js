@@ -1,3 +1,6 @@
+// const documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
+// let documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
+
 let let_variable = "let variable";
 console.log(let_variable);
 

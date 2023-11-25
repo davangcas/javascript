@@ -1,3 +1,5 @@
+// destructuring doc: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+
 // Run: node a11_destructuring.js
 // Destructuring
 

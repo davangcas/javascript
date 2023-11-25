@@ -1,3 +1,5 @@
+// arrow functions documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+
 const say_hello = (name) => console.log(`Hello ${name}!`);
 say_hello("John"); // Hello John!
 

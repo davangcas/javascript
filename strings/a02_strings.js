@@ -1,3 +1,5 @@
+// strings documentation - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+
 let string = "    Hello World    ";
 console.log(string);
 let object_string = new String("  Second String 2  ");

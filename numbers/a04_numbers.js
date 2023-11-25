@@ -1,3 +1,5 @@
+// numbers documentation - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
+
 let number = 10;
 let number_object = new Number(10);
 let float_number = 10.5;

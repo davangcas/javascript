@@ -1,3 +1,5 @@
+// promises documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
 // Create a promise
 const myPromise = new Promise((resolve, reject) => {
     // Simulate an asynchronous operation

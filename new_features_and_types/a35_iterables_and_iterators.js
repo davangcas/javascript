@@ -1,3 +1,6 @@
+// iterable documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols
+// iterator documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#iterator
+
 // Iterable object
 const myIterable = {
     [Symbol.iterator]() {

@@ -1,3 +1,5 @@
+// error handling documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch
+
 let number = 10;
 
 try {

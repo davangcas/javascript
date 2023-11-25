@@ -1,3 +1,5 @@
+// literal objects doc: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer
+
 // literal objects
 
 let name = "John";

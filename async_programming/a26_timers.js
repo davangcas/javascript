@@ -1,3 +1,6 @@
+// setTimeout documentation: https://nodejs.org/api/timers.html#timers_settimeout_callback_delay_args
+// setInterval documentation: https://nodejs.org/api/timers.html#timers_setinterval_callback_delay_args
+
 // Using setTimeout
 console.log("Before setTimeout");
 setTimeout(() => {

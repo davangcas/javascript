@@ -1,3 +1,5 @@
+// short circuit operator documentation - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators#Short-circuit_evaluation
+
 // OR operator
 
 let x = 5;

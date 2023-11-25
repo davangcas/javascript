@@ -1,3 +1,5 @@
+// static methods doc: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static
+
 class Circle {
     constructor(radius) {
         this.radius = radius;

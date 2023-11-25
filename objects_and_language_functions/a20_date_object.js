@@ -1,3 +1,5 @@
+// date object documentation - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+
 // Create a new instance of the Date object
 const currentDate = new Date();
 

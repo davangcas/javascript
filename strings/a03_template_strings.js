@@ -1,3 +1,5 @@
+// template strings documentation - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+
 let first_name = "John";
 let last_name = "Doe";
 

@@ -1,3 +1,5 @@
+// prototypes documentation - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
+
 // Constructor function
 function Person(name, age) {
     this.name = name;

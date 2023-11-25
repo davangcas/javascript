@@ -1,3 +1,5 @@
+// booleans documentation - https://developer.mozilla.org/en-US/docs/Glossary/Boolean
+
 let true_value = true;
 let false_value = false;
 

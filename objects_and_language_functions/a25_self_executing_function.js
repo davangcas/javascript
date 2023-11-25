@@ -1,3 +1,5 @@
+// iife doc: https://developer.mozilla.org/en-US/docs/Glossary/IIFE
+
 (function () {
     // Code inside the IIFE
     console.log("This is an IIFE");

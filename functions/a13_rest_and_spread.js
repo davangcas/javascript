@@ -1,3 +1,6 @@
+// rest parameter documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters
+// spread operator documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+
 // rest parameter and spread operator
 
 // rest parameter

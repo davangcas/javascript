@@ -1,3 +1,5 @@
+// modules documentation: https://nodejs.org/api/modules.html
+
 import { PI, username } from "./constants.js";
 
 console.log("This is an console.log from first_module.js");

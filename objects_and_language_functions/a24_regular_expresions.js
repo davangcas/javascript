@@ -1,3 +1,5 @@
+// regular expressions doc: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+
 // Create a regular expression pattern to match email addresses
 const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 

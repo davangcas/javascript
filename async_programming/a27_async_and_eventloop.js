@@ -1,3 +1,6 @@
+// asynchronous programming document: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing
+// event loop document: https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop
+
 console.log("Start");
 
 setTimeout(() => {

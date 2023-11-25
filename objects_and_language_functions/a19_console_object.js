@@ -1,3 +1,5 @@
+// console object documentation - https://developer.mozilla.org/en-US/docs/Web/API/Console
+
 // Logging messages
 console.log("This is a log message"); // Outputs a log message to the console
 console.warn("This is a warning message"); // Outputs a warning message to the console

@@ -1,3 +1,5 @@
+// undefined, null and NaN documentation - https://developer.mozilla.org/en-US/docs/Glossary/Primitive
+
 let undefinded_value;
 let null_value = null;
 let nan_value = NaN;

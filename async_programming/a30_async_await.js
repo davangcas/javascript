@@ -1,3 +1,5 @@
+// async and await documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
+
 // Asynchronous function that returns a promise
 function fetchData() {
     return new Promise((resolve, reject) => {

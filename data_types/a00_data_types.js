@@ -1,3 +1,5 @@
+// data types documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
+
 //old method to declare variables
 
 var hello_world = "Hello world";

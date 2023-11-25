@@ -1,3 +1,5 @@
+// prototypical inheritance doc: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance
+
 // Parent object
 const parent = {
     name: "Parent",

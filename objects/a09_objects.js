@@ -1,3 +1,5 @@
+// objects doc: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+
 const new_object = {
     name: "John",
     age: 30,

@@ -1,3 +1,5 @@
+// callback documentation: https://developer.mozilla.org/en-US/docs/Glossary/Callback_function
+
 // Example function that takes a callback
 function fetchData(callback) {
     // Simulating an asynchronous operation
