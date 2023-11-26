@@ -73,3 +73,41 @@ months.forEach((el) => {
 document.write("<h3>Months of the year</h3>");
 $ul3.appendChild($fragment);
 document.body.appendChild($ul3);
+
+const $cards2 = document.querySelector(".cards"),
+    $template = document.getElementById("template-card").content,
+    $fragment2 = document.createDocumentFragment(),
+    cardContent = [
+        {
+            title: "Technology",
+            img: "https://placeimg.com/200/200/tech",
+        },
+        {
+            title: "Animals",
+            img: "https://placeimg.com/200/200/animals",
+        },
+        {
+            title: "Architecture",
+            img: "https://placeimg.com/200/200/arch",
+        },
+        {
+            title: "People",
+            img: "https://placeimg.com/200/200/people",
+        },
+        {
+            title: "Nature",
+            img: "https://placeimg.com/200/200/nature",
+        },
+    ];
+
+cardContent.forEach((el) => {
+    $template.querySelector("img").setAttribute("src", el.img);
+    $template.querySelector("img").setAttribute("alt", el.title);
+    $template.querySelector("figcaption").textContent = el.title;
+    $template.querySelector(".card-title").textContent = el.title;
+
+    let $clone = document.importNode($template, true);
+    $fragment2.appendChild($clone);
+});
+
+$cards2.appendChild($fragment2);
