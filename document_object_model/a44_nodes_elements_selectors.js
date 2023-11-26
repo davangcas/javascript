@@ -36,3 +36,6 @@ console.log(document.querySelector(".myClass"));
 console.log(document.querySelector("div"));
 console.log(document.querySelector("div.myClass"));
 console.log(document.querySelector("div#myElement"));
+
+document.querySelectorAll(".myClass").setAttribute("data-test", "test");
+document.querySelector(".myClass").setAttribute("data-test", "test2");

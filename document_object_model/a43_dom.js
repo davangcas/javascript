@@ -12,9 +12,25 @@ document.body.appendChild(newElement);
 
 // Access an existing element by its ID
 const existingElement = document.getElementById("myElement");
+const element_text = `
+    <h1>DOM</h1>
+    <p>Document Object Model</p>
+    <p>DOM is a programming interface for HTML and XML documents.</p>
+    <p>It represents the page so that programs can change the document structure, style, and content.</p>
+    <p>The DOM represents the document as nodes and objects.</p>
+`;
+
+// Change the HTML content of an element
+existingElement.innerHTML = element_text;
+
+// Change the text content of an element it doesn't render HTML tags, it's faster than innerHTML but it's not standard
+existingElement.innerText = element_text;
 
 // Change the text content of an element
-existingElement.textContent = "Hello, world!";
+existingElement.textContent = element_text;
+
+// Change the HTML content of an element
+existingElement.outerHTML = element_text;
 
 // Add an event listener to an element
 existingElement.addEventListener("click", () => {
