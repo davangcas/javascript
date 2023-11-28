@@ -1,3 +1,5 @@
+// Scroll to top button
+
 export function scrollTop(button) {
     const scroll_element = document.querySelector(button);
 

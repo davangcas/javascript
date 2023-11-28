@@ -21,6 +21,7 @@ export function digitalClock(clock, play_button, stop_button) {
         }
     });
 }
+
 export function alarmSound(sound, play_button, stop_button) {
     const alarm = document.createElement("audio");
     let alarmTemp;

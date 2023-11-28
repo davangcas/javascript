@@ -1,3 +1,5 @@
+// Countdown timer
+
 export function countdown(element_id, limit_date, message) {
     const countdown_element = document.querySelector(element_id);
     const limit_time = new Date(limit_date).getTime();

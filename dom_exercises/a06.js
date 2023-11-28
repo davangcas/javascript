@@ -1,3 +1,5 @@
+// Dark mode toogle
+
 export function darkModeToogle(button, dark_class) {
     const dark_mode_element = document.querySelector(button);
     const selectors = document.querySelectorAll("[data-theme]");
