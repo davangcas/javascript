@@ -3,6 +3,7 @@ import { digitalClock, alarmSound } from "./a02.js";
 import { shortcuts, moveBall } from "./a03.js";
 import { countdown } from "./a04.js";
 import { scrollTop } from "./a05.js";
+import { darkModeToogle } from "./a06.js";
 
 document.addEventListener("DOMContentLoaded", (event) => {
     hamburgerMenu(".panel-btn", ".panel", ".menu a");
@@ -16,3 +17,5 @@ document.addEventListener("keydown", (event) => {
     shortcuts(event);
     moveBall(event, ".ball", ".stage");
 });
+
+darkModeToogle(".dark-mode-btn", "dark-mode");
