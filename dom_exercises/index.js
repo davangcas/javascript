@@ -8,6 +8,7 @@ import { responsiveMedia } from "./a07.js";
 import { responsiveTester } from "./a08.js";
 import { userDeviceInfo } from "./a09.js";
 import { getNetworkStatus } from "./a10.js";
+import { webcamDetection } from "./a11.js";
 
 document.addEventListener("DOMContentLoaded", (event) => {
     hamburgerMenu(".panel-btn", ".panel", ".menu a");
@@ -29,6 +30,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     );
     responsiveTester("responsive-tester");
     userDeviceInfo("user-agent");
+    webcamDetection("webcam");
 });
 
 document.addEventListener("keydown", (event) => {
