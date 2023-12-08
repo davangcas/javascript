@@ -9,6 +9,10 @@ import { responsiveTester } from "./a08.js";
 import { userDeviceInfo } from "./a09.js";
 import { getNetworkStatus } from "./a10.js";
 import { webcamDetection } from "./a11.js";
+import { getGeolocationContent } from "./a12.js";
+import { searchFilters } from "./a13.js";
+import { getPlayerWinner } from "./a14.js";
+import { sliderComponent } from "./a15.js";
 
 document.addEventListener("DOMContentLoaded", (event) => {
     hamburgerMenu(".panel-btn", ".panel", ".menu a");
@@ -31,6 +35,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
     responsiveTester("responsive-tester");
     userDeviceInfo("user-agent");
     webcamDetection("webcam");
+    getGeolocationContent("geolocation");
+    searchFilters(".card-filter", ".card");
+    getPlayerWinner("#get-winner-button", ".player");
+    sliderComponent();
 });
 
 document.addEventListener("keydown", (event) => {
