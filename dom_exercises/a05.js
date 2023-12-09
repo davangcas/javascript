@@ -3,7 +3,7 @@
 export function scrollTop(button) {
     const scroll_element = document.querySelector(button);
 
-    addEventListener("scroll", () => {
+    window.addEventListener("scroll", () => {
         let scroll_y = pageYOffset || document.documentElement.scrollTop;
 
         if (scroll_y > 600) {

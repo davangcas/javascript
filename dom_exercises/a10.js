@@ -20,11 +20,11 @@ export function getNetworkStatus() {
         }, 2000);
     };
 
-    addEventListener("offline", (event) => {
+    window.addEventListener("offline", (event) => {
         isOnline();
     });
 
-    addEventListener("online", (event) => {
+    window.addEventListener("online", (event) => {
         isOnline();
     });
 }

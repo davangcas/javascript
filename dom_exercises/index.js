@@ -13,11 +13,13 @@ import { getGeolocationContent } from "./a12.js";
 import { searchFilters } from "./a13.js";
 import { getPlayerWinner } from "./a14.js";
 import { sliderComponent } from "./a15.js";
+import { scrollSpy } from "./a16.js";
+import { smartVideo } from "./a17.js";
 
 document.addEventListener("DOMContentLoaded", (event) => {
     hamburgerMenu(".panel-btn", ".panel", ".menu a");
     digitalClock("#clock", "#init-clock", "#stop-clock");
-    alarmSound("./Nightcall.mp4", "#init-alarm", "#stop-alarm");
+    alarmSound("./assets/Nightcall.mp4", "#init-alarm", "#stop-alarm");
     countdown("#countdown", "November 28 2023 00:00:00", "Congratulations!");
     scrollTop(".scroll-top-btn");
     responsiveMedia(
@@ -39,6 +41,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
     searchFilters(".card-filter", ".card");
     getPlayerWinner("#get-winner-button", ".player");
     sliderComponent();
+    scrollSpy();
+    smartVideo();
 });
 
 document.addEventListener("keydown", (event) => {
