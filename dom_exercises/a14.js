@@ -1,5 +1,9 @@
 // draw function to get the winner
 
+// Math object documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
+// Math.floor documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor
+// Math.random documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+
 export function getPlayerWinner(button, selector) {
     const getWinner = (selector) => {
         const $players = document.querySelectorAll(selector);

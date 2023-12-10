@@ -1,4 +1,5 @@
 // hamburguer menu
+// hamburger documentation: https://jonsuh.com/hamburgers/
 
 export default function hamburgerMenu(button, menu, link) {
     document.addEventListener("click", (event) => {

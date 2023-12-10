@@ -1,5 +1,9 @@
 // form validations with javascript
 
+// RegExp documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp
+// RegExp.exec documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec
+// RegExp.test documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test
+
 export function contactFormValidation() {
     const $form = document.querySelector(".contact-form");
     const $inputs = document.querySelectorAll(".contact-form [required]");

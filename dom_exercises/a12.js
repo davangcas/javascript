@@ -1,5 +1,8 @@
 // Geolocation
 
+// navigator.geolocation object: https://developer.mozilla.org/en-US/docs/Web/API/Geolocation
+// navigator.geolocation.getCurrentPosition: https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/getCurrentPosition
+
 export function getGeolocationContent(element_id) {
     const $element_container = document.getElementById(element_id);
     const options = {

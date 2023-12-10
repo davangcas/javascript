@@ -1,4 +1,6 @@
 // network status
+// window offline event: https://developer.mozilla.org/en-US/docs/Web/API/Window/offline_event
+// window online event: https://developer.mozilla.org/en-US/docs/Web/API/Window/online_event
 
 export function getNetworkStatus() {
     const isOnline = () => {

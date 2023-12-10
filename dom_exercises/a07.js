@@ -1,3 +1,5 @@
+// matchMedia documentation: https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia
+
 export function responsiveMedia(
     element_id,
     media_query,

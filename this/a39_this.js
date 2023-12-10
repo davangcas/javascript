@@ -1,4 +1,11 @@
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this#as_a_dom_event_handler
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this#as_a_constructor
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this#as_a_method_of_an_object
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this#as_a_global_object
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this#as_an_arrow_function
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this#as_an_implicitly_bound_function
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this#as_a_caller_of_an_implicitly_bound_function
 
 // Method to access the current value of `this`
 function getCurrentThis() {

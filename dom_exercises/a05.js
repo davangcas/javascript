@@ -1,4 +1,5 @@
 // Scroll to top button
+// scrollTo documentation: https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTo
 
 export function scrollTop(button) {
     const scroll_element = document.querySelector(button);

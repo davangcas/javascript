@@ -1,3 +1,5 @@
+// Modules documentation: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/import
+
 import hamburgerMenu from "./a01.js";
 import { digitalClock, alarmSound } from "./a02.js";
 import { shortcuts, moveBall } from "./a03.js";

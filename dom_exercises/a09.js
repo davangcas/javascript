@@ -1,5 +1,10 @@
 // User agent
 
+// navigator documentation (MDN): https://developer.mozilla.org/en-US/docs/Web/API/Navigator
+// navigator.userAgent documentation (MDN): https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/userAgent
+// navigator.userAgent.match documentation (MDN): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match
+
+
 export function userDeviceInfo(element_id) {
     const element = document.getElementById(element_id);
     const mobile_info = {

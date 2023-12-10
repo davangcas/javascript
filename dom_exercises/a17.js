@@ -1,5 +1,7 @@
 // smart video player
 
+// IntersectionObserver: https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver
+
 export function smartVideo() {
     const $smart_videos = document.querySelectorAll("video[data-smart-video]");
     const observer_callback = (entries) => {

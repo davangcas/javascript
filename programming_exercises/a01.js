@@ -1,3 +1,7 @@
+// string slice documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice
+// string repeat documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
+// string split documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
+
 console.log("--------------------");
 console.log("Exercise 01");
 console.log("--------------------");

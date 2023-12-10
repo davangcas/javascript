@@ -1,5 +1,7 @@
 // Scroll Spy with Intersection Observer API
 
+// Intersection Observer API documentation: https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
+
 export function scrollSpy() {
     const $sections = document.querySelectorAll("section[data-scroll-spy]");
     const instersection_observer_callback = (entries) => {

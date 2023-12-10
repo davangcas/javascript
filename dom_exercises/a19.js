@@ -1,5 +1,9 @@
 // speech reader function
 
+// SpeechSynthesisUtterance documentation (speech message): https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance
+// speechSynthesis documentation (speech message): https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis
+// speechSynthesis.getVoices documentation (voices): https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/getVoices
+
 export function speechReader() {
     const $speechSelect = document.getElementById("speech-select");
     const $speechTextarea = document.getElementById("speech-text");

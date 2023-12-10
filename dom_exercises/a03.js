@@ -1,4 +1,4 @@
-// keyboard events
+// keyboard events documentation (MDN): https://developer.mozilla.org/es/docs/Web/API/KeyboardEvent
 
 let x = 0;
 let y = 0;

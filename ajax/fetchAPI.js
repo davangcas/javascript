@@ -1,3 +1,5 @@
+// Fetch API documentation: https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch
+
 (() => {
     const $fetch_list = document.getElementById("fetch-list");
     const $fragment = document.createDocumentFragment();

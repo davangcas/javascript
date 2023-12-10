@@ -1,5 +1,8 @@
 // responsive tester
 
+// widow.open documentation: https://developer.mozilla.org/en-US/docs/Web/API/Window/open
+// window.close documentation: https://developer.mozilla.org/en-US/docs/Web/API/Window/close
+
 let tester;
 
 export function responsiveTester(form_id) {

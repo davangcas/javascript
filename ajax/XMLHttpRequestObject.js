@@ -1,3 +1,5 @@
+// XMLHttpRequestObject documentation: https://developer.mozilla.org/es/docs/Web/API/XMLHttpRequest
+
 (() => {
     const xhr = new XMLHttpRequest();
     const $xhr_list = document.getElementById("xhr-list");
