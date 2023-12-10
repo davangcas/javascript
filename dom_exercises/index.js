@@ -15,6 +15,8 @@ import { getPlayerWinner } from "./a14.js";
 import { sliderComponent } from "./a15.js";
 import { scrollSpy } from "./a16.js";
 import { smartVideo } from "./a17.js";
+import { contactFormValidation } from "./a18.js";
+import { speechReader } from "./a19.js";
 
 document.addEventListener("DOMContentLoaded", (event) => {
     hamburgerMenu(".panel-btn", ".panel", ".menu a");
@@ -43,6 +45,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     sliderComponent();
     scrollSpy();
     smartVideo();
+    contactFormValidation();
 });
 
 document.addEventListener("keydown", (event) => {
@@ -52,3 +55,4 @@ document.addEventListener("keydown", (event) => {
 
 darkModeToogle(".dark-mode-btn", "dark-mode");
 getNetworkStatus();
+speechReader();

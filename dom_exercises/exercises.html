@@ -39,7 +39,7 @@
                 <a href="#section12" data-scroll-spy>Responsive Slider</a>
                 <a href="#section13" data-scroll-spy>Smart Video</a>
                 <a href="#section14" data-scroll-spy>Forms validations</a>
-                <a href="#section15" data-scroll-spy>Section 15</a>
+                <a href="#section15" data-scroll-spy>Storyteller</a>
                 <a href="#section16" data-scroll-spy>Section 16</a>
                 <a href="#section17" data-scroll-spy>Section 17</a>
                 <a href="#section18" data-scroll-spy>Section 18</a>
@@ -242,7 +242,12 @@
             </section>
             <section id="section14" class="section" data-scroll-spy>
                 <h2>Forms validations</h2>
-                <form class="contact-form">
+                <form
+                    class="contact-form"
+                    action="https://formsubmit.co/your-email-here"
+                    method="POST"
+                    target="_blank"
+                >
                     <legend>Send your comments, please</legend>
                     <input
                         type="text"
@@ -277,11 +282,28 @@
                         data-pattern="^.{1,255}$"
                     ></textarea>
                     <input type="submit" value="Send" />
-                    <div class="contact-form-loader"></div>
+                    <div class="contact-form-loader hidden">
+                        <img src="./assets/rings.svg" alt="Loading" />
+                    </div>
+                    <div class="contact-form-response hidden">
+                        <p>Data sent</p>
+                    </div>
                 </form>
             </section>
             <section id="section15" class="section" data-scroll-spy>
-                <h2>Section 15</h2>
+                <h2>Storyteller</h2>
+                <select id="speech-select">
+                    <option value="0">Select a voice</option>
+                </select>
+                <br /><br />
+                <textarea
+                    id="speech-text"
+                    cols="30"
+                    rows="10"
+                    placeholder="Write your story"
+                ></textarea>
+                <br /><br />
+                <button id="speech-start">Start</button>
             </section>
             <section id="section16" class="section" data-scroll-spy>
                 <h2>Section 16</h2>
